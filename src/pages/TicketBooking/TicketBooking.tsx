@@ -37,7 +37,6 @@ const formVariant = {
     transition: {
       type: "tween",
       ease: "easeInOut",
-      // delay: 1,
       duration: 0.7,
     },
   },
