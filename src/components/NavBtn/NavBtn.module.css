@@ -1,0 +1,18 @@
+.navBtn {
+  text-transform: uppercase;
+  background-color: var(--light-brown-color);
+  outline: none;
+  border: none;
+  color: var(--dark-brown-color);
+  font-family: var(--montserrat-font);
+  font-weight: 500;
+  padding: 0.62rem 0.94rem;
+  border-radius: 0.25rem;
+  transition: 0.4s all;
+}
+
+.navBtn:hover {
+  background-color: var(--red-color);
+  color: var(--light-brown-color);
+  cursor: pointer;
+}

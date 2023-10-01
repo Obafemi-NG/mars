@@ -1,0 +1,33 @@
+.navbarContainer {
+  max-width: 75rem;
+  background-color: transparent;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.88rem 0;
+}
+.navlinksContainer {
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+.navlinks {
+  display: flex;
+  gap: 1.8rem;
+  align-items: center;
+}
+.navLink {
+  color: var(--light-brown-color);
+  font-family: var(--montserrat-font);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  transition: 0.4s all;
+}
+
+.navLink:hover {
+  color: var(--red-color);
+}

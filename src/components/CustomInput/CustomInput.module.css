@@ -1,0 +1,37 @@
+.inputPair {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.label {
+  color: var(--dark-brown-color);
+  font-size: 1rem;
+  font-family: var(--montserrat-font);
+  margin-bottom: 1.25rem;
+  font-weight: 700;
+}
+.input {
+  padding: 0.62rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.125rem solid var(--dark-brown-color);
+  outline: none;
+  color: var(--dark-brown-color);
+
+  font-size: 1rem;
+  font-family: var(--montserrat-font);
+}
+.input::placeholder {
+  color: var(--dark-brown-color);
+  font-family: var(--montserrat-font);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media screen and (max-width: 480px) {
+  .inputPair {
+    width: 100%;
+  }
+}
