@@ -16,10 +16,10 @@
 }
 .pageHeading {
   font-family: var(--bebas-font);
-  font-size: 7.125rem;
-  max-width: 70%;
+  font-size: 6rem;
+  max-width: 60%;
   font-weight: 700;
-  /* letter-spacing: 0.17813rem; */
+  letter-spacing: 0.17813rem;
   text-transform: uppercase;
   color: var(--dark-brown-color);
 }
