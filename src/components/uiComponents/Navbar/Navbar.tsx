@@ -1,7 +1,7 @@
 import { FC } from "react";
 import styles from "./Navbar.module.css";
 import Logo from "../Logo/Logo";
-import { navlinks } from "../../constants";
+import { navlinks } from "../../../constants";
 import { NavLink } from "react-router-dom";
 import NavBtn from "../NavBtn/NavBtn";
 

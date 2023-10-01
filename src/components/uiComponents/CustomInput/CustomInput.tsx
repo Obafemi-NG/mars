@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { InputProps } from "../../models";
+import { InputProps } from "../../../models";
 
 import styles from "./CustomInput.module.css";
 

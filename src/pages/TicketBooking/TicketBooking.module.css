@@ -1,5 +1,5 @@
 .pageContainer {
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   overflow: hidden;
   background-color: var(--light-brown-color);
@@ -8,6 +8,7 @@
   max-width: 75rem;
   margin: 0 auto;
   margin-top: 6.5rem;
+  padding-bottom: 2rem;
 }
 .top {
   display: flex;

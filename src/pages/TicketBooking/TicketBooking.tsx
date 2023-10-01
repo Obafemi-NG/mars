@@ -1,11 +1,15 @@
 import { FC, useRef } from "react";
+
+// imported dependencies
+import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
+
+// imported styles
 import styles from "./TicketBooking.module.css";
 
+// imported component
+import CustomInput from "../../components/uiComponents/CustomInput/CustomInput";
 import closeBtn from "../../assets/icons/Vectorclose.svg";
-import CustomInput from "../../components/CustomInput/CustomInput";
-import { useNavigate } from "react-router-dom";
-
-import { motion } from "framer-motion";
 
 const pageVariant = {
   initial: {
